@@ -1,0 +1,52 @@
+{
+    "name": "css-minify-unminify",
+    "version": "1.0.0",
+    "main": "lib/cssProcessor.js",
+    "bin": {
+        "css-tool": "./bin/cli.js"
+    },
+    "scripts": {
+      "build": "node dev_tools/esbuild.config.js && node dev_tools/test.js",
+      "dev": "node dev_tools/esbuild.config.js",
+      "test": "echo \"No tests yet\""
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wikimint/css-minify-unminify.git"
+    },
+    "keywords": [
+        "css-minify",
+        "css-unminify",
+        "css-minifier",
+        "css-formatter",
+        "css-beautify",
+        "css-optimizer",
+        "css-compressor",
+        "minify-css",
+        "unminify-css",
+        "format-css",
+        "optimize-css",
+        "css-cleaner",
+        "css-tools",
+        "frontend-tools",
+        "web-performance",
+        "reduce-css-size",
+        "css-compression",
+        "css-parser",
+        "developer-tools",
+        "web-development"
+      ],
+    "author": "Selvakumaran Krishnan",
+    "license": "Propreitary",
+    "bugs": {
+      "url": "https://github.com/wikimint/css-minify-unminify/issues"
+    },
+    "homepage": "https://github.com/wikimint/css-minify-unminify",
+    "type": "commonjs",
+    "devDependencies": {
+      "esbuild": "^0.27.4",
+      "google-closure-compiler": "^20260311.0.0",
+      "google-closure-compiler-windows": "^20260311.0.0",
+      "javascript-obfuscator": "^5.3.0"
+    }
+  }
